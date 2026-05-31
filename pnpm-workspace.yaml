@@ -11,3 +11,6 @@ trustPolicy: "no-downgrade"
 
 packages:
   - "packages/*"
+
+catalog:
+  "@changesets/cli": "2.31.0"

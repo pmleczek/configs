@@ -3,9 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
-  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "release": "changeset publish --provenance"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "catalog:"
+  },
+  "peerDependencies": {},
   "engines": {
     "node": ">=24.0.0",
     "pnpm": ">=11.0.0"
-  }
+  },
+  "packageManager": "pnpm@11.3.0"
 }
