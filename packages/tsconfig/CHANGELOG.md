@@ -1,5 +1,11 @@
 # @pmleczek/tsconfig
 
+## 1.1.1
+
+### Patch Changes
+
+- 8761d0b: Update package.json
+
 ## 1.1.0
 
 ### Minor Changes
