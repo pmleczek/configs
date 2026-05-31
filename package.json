@@ -4,7 +4,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "release": "changeset publish --provenance"
+    "release": "changeset publish --provenance",
+    "test": "pnpm --filter '*' test"
   },
   "dependencies": {},
   "devDependencies": {

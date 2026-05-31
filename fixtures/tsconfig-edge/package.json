@@ -1,0 +1,15 @@
+{
+  "name": "@pmleczek/fixture-tsconfig-edge",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pmleczek/tsconfig": "workspace:*",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {}
+}

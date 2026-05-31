@@ -8,9 +8,24 @@ preferOffline: false
 resolvePeersFromWorkspaceRoot: true
 strictPeerDependencies: true
 trustPolicy: "no-downgrade"
+trustPolicyExclude:
+  - "semver@6.3.1"
+  - "undici-types@6.21.0"
 
 packages:
+  - "fixtures/*"
   - "packages/*"
 
 catalog:
   "@changesets/cli": "2.31.0"
+  "@types/node": "24.7.2"
+  "@types/react": "19.2.6"
+  "@types/react-dom": "19.2.3"
+  "next": "16.2.6"
+  "react": "19.2.6"
+  "react-dom": "19.2.6"
+  "react-native": "0.85.3"
+  "typescript": "5.9.3"
+
+allowBuilds:
+  sharp: true
