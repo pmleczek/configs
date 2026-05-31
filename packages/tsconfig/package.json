@@ -1,10 +1,28 @@
 {
   "name": "@pmleczek/tsconfig",
   "version": "0.0.1",
-  "description": "TypeScript configuration files",
+  "description": "A set of opinionated TypeScript configuration files",
+  "keywords": [
+    "tsconfig",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/pmleczek/configs/issues"
+  },
+  "license": "MIT",
+  "author": "Patryk Mleczek",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmleczek/configs.git",
+    "directory": "packages/tsconfig"
+  },
   "files": [
     "*.json"
   ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     "./base": "./base.json",
     "./react": "./react.json",
@@ -13,5 +31,8 @@
     "./library": "./library.json",
     "./nextjs": "./nextjs.json",
     "./edge": "./edge.json"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {}
 }
