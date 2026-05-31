@@ -30,7 +30,8 @@
     "./react-native": "./src/react-native.json"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "dependencies": {},
   "devDependencies": {},
