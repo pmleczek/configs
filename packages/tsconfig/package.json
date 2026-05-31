@@ -1,0 +1,17 @@
+{
+  "name": "@pmleczek/tsconfig",
+  "version": "0.0.1",
+  "description": "TypeScript configuration files",
+  "files": [
+    "*.json"
+  ],
+  "exports": {
+    "./base": "./base.json",
+    "./react": "./react.json",
+    "./react-native": "./react-native.json",
+    "./node": "./node.json",
+    "./library": "./library.json",
+    "./nextjs": "./nextjs.json",
+    "./edge": "./edge.json"
+  }
+}
