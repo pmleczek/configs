@@ -25,7 +25,6 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-          registry-url: https://registry.npmjs.org
       - run: pnpm install --frozen-lockfile
       - run: pnpm changeset version
       - id: changed
@@ -40,5 +39,3 @@ jobs:
           git push
       - if: github.event_name == 'workflow_dispatch' || steps.changed.outputs.changed == 'true'
         run: pnpm release
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
