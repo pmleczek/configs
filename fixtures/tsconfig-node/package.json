@@ -7,10 +7,9 @@
   "scripts": {
     "test": "tsc --noEmit"
   },
-  "dependencies": {},
   "devDependencies": {
     "@pmleczek/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
     "typescript": "catalog:"
-  },
-  "peerDependencies": {}
+  }
 }
