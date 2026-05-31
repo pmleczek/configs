@@ -1,6 +1,3 @@
-/**
- * Validates ES2023 components
- */
 const nums = [1, 2, 3, 4, 5];
 
 export const lastEven = nums.findLast((n) => n % 2 === 0); // number | undefined

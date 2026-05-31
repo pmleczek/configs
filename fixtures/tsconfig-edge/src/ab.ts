@@ -1,6 +1,3 @@
-/**
- * Validates A/B bucketing-like scenario
- */
 export interface Experiment {
   id: string;
   variants: readonly [string, ...string[]];

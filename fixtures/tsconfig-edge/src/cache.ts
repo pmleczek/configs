@@ -1,6 +1,3 @@
-/**
- * Validates cache-like scenario
- */
 export interface CacheDirectives {
   maxAge: number;
   staleWhileRevalidate?: number;

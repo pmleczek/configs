@@ -1,6 +1,3 @@
-/**
- * Validates that DOM globals aren't available
- */
 // @ts-expect-error — document is not available in edge runtime
 document.getElementById("app");
 

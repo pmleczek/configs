@@ -1,6 +1,3 @@
-/**
- * Validates rate limiting-like scenario
- */
 export interface RateLimitState {
   tokens: number;
   lastRefillMs: number;

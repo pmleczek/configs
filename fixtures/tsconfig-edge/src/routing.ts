@@ -1,6 +1,3 @@
-/**
- * Validates routing-like scenario
- */
 export interface GeoData {
   country: string;
   region: string;
