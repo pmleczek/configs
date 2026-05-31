@@ -17,7 +17,14 @@
     "directory": "packages/tsconfig"
   },
   "files": [
-    "*.json"
+    "src/base.json",
+    "src/edge.json",
+    "src/library.json",
+    "src/nextjs.json",
+    "src/node.json",
+    "src/react-native.json",
+    "src/react.json",
+    "package.json"
   ],
   "sideEffects": false,
   "exports": {
