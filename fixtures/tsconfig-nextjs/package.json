@@ -7,19 +7,13 @@
   "scripts": {
     "test": "tsc --noEmit"
   },
-  "dependencies": {
-    "@types/react": "^19.0.0",
-    "next": "^15.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
   "devDependencies": {
     "@pmleczek/tsconfig": "workspace:*",
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
-    "next": "15.0.0",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "next": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
     "typescript": "catalog:"
   },
   "peerDependencies": {}
