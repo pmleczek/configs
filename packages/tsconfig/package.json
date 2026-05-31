@@ -6,6 +6,7 @@
     "tsconfig",
     "typescript"
   ],
+  "homepage": "https://github.com/pmleczek/configs/tree/main/packages/tsconfig",
   "bugs": {
     "url": "https://github.com/pmleczek/configs/issues"
   },
