@@ -1,5 +1,5 @@
 {
-  "extends": "@pmleczek/tsconfig/react-native",
+  "extends": "@pmleczek/tsconfig/base",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

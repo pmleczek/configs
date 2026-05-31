@@ -1,0 +1,16 @@
+{
+  "name": "@pmleczek/fixture-tsconfig-react",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pmleczek/tsconfig": "workspace:*",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {}
+}

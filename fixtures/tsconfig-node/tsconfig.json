@@ -1,0 +1,4 @@
+{
+  "extends": "@pmleczek/tsconfig/node",
+  "include": ["./src"]
+}

@@ -10,8 +10,12 @@ strictPeerDependencies: true
 trustPolicy: "no-downgrade"
 
 packages:
+  - "fixtures/*"
   - "packages/*"
 
 catalog:
   "@changesets/cli": "2.31.0"
   "typescript": "5.9.3"
+
+allowBuilds:
+  sharp: true

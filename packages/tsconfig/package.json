@@ -22,12 +22,12 @@
   "sideEffects": false,
   "exports": {
     "./base": "./src/base.json",
-    "./react": "./src/react.json",
-    "./react-native": "./src/react-native.json",
-    "./node": "./src/node.json",
+    "./edge": "./src/edge.json",
     "./library": "./src/library.json",
     "./nextjs": "./src/nextjs.json",
-    "./edge": "./src/edge.json"
+    "./node": "./src/node.json",
+    "./react": "./src/react.json",
+    "./react-native": "./src/react-native.json"
   },
   "publishConfig": {
     "access": "public"

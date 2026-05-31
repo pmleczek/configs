@@ -1,0 +1,8 @@
+{
+  "extends": "@pmleczek/tsconfig/library",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": ["./src"]
+}
