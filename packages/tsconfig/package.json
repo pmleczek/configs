@@ -1,6 +1,6 @@
 {
   "name": "@pmleczek/tsconfig",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A set of opinionated TypeScript configuration files",
   "keywords": [
     "tsconfig",
