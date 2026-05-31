@@ -4,9 +4,6 @@ import type { PaginationOptions } from "./pagination.js";
 export const validOptions: PaginationOptions = { page: 1, limit: 10 };
 export const withCursor: PaginationOptions = { page: 1, limit: 10, cursor: "abc" };
 
-// @ts-expect-error — cursor: undefined is not assignable (exactOptionalPropertyTypes)
-export const invalidCursor: PaginationOptions = { page: 1, limit: 10, cursor: undefined };
-
 // noUncheckedIndexedAccess — array index returns T | undefined
 const arr = [1, 2, 3];
 
