@@ -14,3 +14,4 @@ packages:
 
 catalog:
   "@changesets/cli": "2.31.0"
+  "typescript": "5.9.3"

@@ -1,0 +1,10 @@
+{
+  "extends": "@pmleczek/tsconfig/react-native",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["./src"]
+}

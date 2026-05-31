@@ -1,0 +1,15 @@
+{
+  "name": "@pmleczek/configs-fixture",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pmleczek/tsconfig": "workspace:*",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {}
+}
