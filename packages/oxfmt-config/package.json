@@ -17,7 +17,12 @@
     "url": "https://github.com/pmleczek/configs.git",
     "directory": "packages/oxfmt-config"
   },
-  "files": [],
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "src"
+  ],
   "type": "module",
   "sideEffects": false,
   "main": "./src/index.ts",
