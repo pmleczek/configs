@@ -1,5 +1,11 @@
 # @pmleczek/tsconfig
 
+## 1.1.2
+
+### Patch Changes
+
+- 94d04c1: Update documentation
+
 ## 1.1.1
 
 ### Patch Changes
