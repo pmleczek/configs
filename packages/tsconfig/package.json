@@ -18,14 +18,17 @@
     "directory": "packages/tsconfig"
   },
   "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md",
     "src/base.json",
     "src/edge.json",
     "src/library.json",
     "src/nextjs.json",
     "src/node.json",
     "src/react-native.json",
-    "src/react.json",
-    "package.json"
+    "src/react.json"
   ],
   "sideEffects": false,
   "exports": {

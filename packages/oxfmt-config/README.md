@@ -4,27 +4,32 @@ An opinionated set of Oxfmt configuration files for consistent formatting settin
 
 - Basic Oxfmt configuration
 - Import sorting
-- Sorting
+- Tailwind CSS class sorting
 - Sorting `package.json`
 
-### Installation
+## Installation
 
 ```bash
+# npm
 npm install -D @pmleczek/oxfmt-config
+# yarn
 yarn add @pmleczek/oxfmt-config -D
-bun add @pmleczek/oxmft-config -d
-pnpm add -D @pmleczek/oxmft-config
+# bun
+bun add @pmleczek/oxfmt-config -d
+# pnpm
+pnpm add -D @pmleczek/oxfmt-config
 ```
 
-### Included configurations
+## Included configurations
 
-| File              | Description                          |
-| ----------------- | ------------------------------------ |
-| `base`            |                                      |
-| `sortImports`     | Enables sorting imports              |
-| `sortPackageJson` | Enables sorting `package.json` fiels |
+| Export            | Description                                     |
+| ----------------- | ----------------------------------------------- |
+| `base`            | Core formatting rules (quotes, indentation, etc.) |
+| `sortImports`     | Enables import sorting with grouped newlines    |
+| `sortPackageJson` | Enables sorting `package.json` fields           |
+| `sortTailwind`    | Enables Tailwind CSS class sorting              |
 
-### Usage
+## Usage
 
 Since Oxfmt doesn't support extending configurations in JSON format (as per [#16394](https://github.com/oxc-project/oxc/issues/16394)) the only way to "extend" a configuration is to use the JS config format and object spreading:
 
@@ -63,11 +68,11 @@ export default defineConfig({
 - `configPath` - path to your Tailwind config file (defaults to `tailwind.config.js`) for Tailwind CSS v3
 - `stylesheet` - path to your Tailwind stylesheet (defaults to the default `theme.css` file) for Tailwind CSS v4
 
-### Configuration reference
+## Configuration reference
 
-You can find more details about coniguration options in the [official Oxfmt documentation](https://oxc.rs/docs/guide/usage/formatter/config-file-reference.html)
+You can find more details about configuration options in the [official Oxfmt documentation](https://oxc.rs/docs/guide/usage/formatter/config-file-reference.html)
 
-#### Base configuration (`base`)
+### Base configuration (`base`)
 
 | Option                            | Value               |
 | --------------------------------- | ------------------- |
@@ -103,15 +108,14 @@ You can find more details about coniguration options in the [official Oxfmt docu
 | trailingComma                     | `"all"`             |
 | useTabs                           | `false`             |
 
-#### Import sorting (`sortImports`)
+### Import sorting (`sortImports`)
 
-| Option                      | Value             |
-| --------------------------- | ----------------- |
-| sortImports                 | `true` (inferred) |
-| sortImports.newlinesBetween | `true`            |
-| sortImports.groups          | See below         |
+| Option                      | Value   |
+| --------------------------- | ------- |
+| sortImports.newlinesBetween | `true`  |
+| sortImports.groups          | See below |
 
-The order of import sorting is defined by `sortImports.group` option as follows. Each group is separated by new lines:
+The order of import sorting is defined by `sortImports.groups` as follows. Each group is separated by a newline:
 
 - Side effects (both JS and style side effects)
 - External value and type imports
@@ -135,18 +139,17 @@ import { helper } from "../utils";
 import { Button } from "./Button";
 ```
 
-#### `package.json` sorting (`sortPackageJson`)
+### `package.json` sorting (`sortPackageJson`)
 
-| Option                      | Value             |
-| --------------------------- | ----------------- |
-| sortPackageJson             | `true` (inferred) |
-| sortPackageJson.sortScripts | `true`            |
+| Option                      | Value  |
+| --------------------------- | ------ |
+| sortPackageJson.sortScripts | `true` |
 
-#### Tailwind CSS class sorting (`sortTailwind`)
+### Tailwind CSS class sorting (`sortTailwind`)
 
-| Option             | Value                         |
-| ------------------ | ----------------------------- |
-| attributes         | `[]`                          |
-| functions          | `["clsx", "cn", "cva", "tw"]` |
-| preserveDuplicates | `false`                       |
-| preserveWhitespace | `true`                        |
+| Option                          | Value                         |
+| ------------------------------- | ----------------------------- |
+| sortTailwindcss.attributes      | `[]`                          |
+| sortTailwindcss.functions       | `["clsx", "cn", "cva", "tw"]` |
+| sortTailwindcss.preserveDuplicates | `false`                    |
+| sortTailwindcss.preserveWhitespace | `true`                     |
