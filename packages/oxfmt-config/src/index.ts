@@ -1,4 +1,4 @@
-export { base } from "./base";
-export { sortImports } from "./sort-imports";
-export { sortPackageJson } from "./sort-package";
-export { sortTailwind } from "./sort-tailwind";
+export { base } from "./base.ts";
+export { sortImports } from "./sort-imports.ts";
+export { sortPackageJson } from "./sort-package.ts";
+export { sortTailwind } from "./sort-tailwind.ts";
