@@ -1,0 +1,4 @@
+{
+  "extends": "@pmleczek/tsconfig/base",
+  "include": ["oxfmt.config.ts"]
+}

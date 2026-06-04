@@ -59,9 +59,72 @@ importers:
       '@pmleczek/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.2.6
       oxfmt:
         specifier: 'catalog:'
         version: 0.52.0
+      react:
+        specifier: 'catalog:'
+        version: 19.2.6
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
+  fixtures/oxfmt-sort-imports:
+    devDependencies:
+      '@pmleczek/oxfmt-config':
+        specifier: workspace:*
+        version: link:../../packages/oxfmt-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.2.6
+      oxfmt:
+        specifier: 'catalog:'
+        version: 0.52.0
+      react:
+        specifier: 'catalog:'
+        version: 19.2.6
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
+  fixtures/oxfmt-sort-package:
+    devDependencies:
+      '@pmleczek/oxfmt-config':
+        specifier: workspace:*
+        version: link:../../packages/oxfmt-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      oxfmt:
+        specifier: 'catalog:'
+        version: 0.52.0
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
+  fixtures/oxfmt-sort-tailwind:
+    devDependencies:
+      '@pmleczek/oxfmt-config':
+        specifier: workspace:*
+        version: link:../../packages/oxfmt-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.2.6
+      oxfmt:
+        specifier: 'catalog:'
+        version: 0.52.0
+      react:
+        specifier: 'catalog:'
+        version: 19.2.6
       typescript:
         specifier: 'catalog:'
         version: 5.9.3

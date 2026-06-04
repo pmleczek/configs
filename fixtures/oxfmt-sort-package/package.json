@@ -1,19 +1,19 @@
 {
-  "name": "@pmleczek/fixture-oxfmt-base",
+  "name": "@pmleczek/fixture-oxfmt-sort-package",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "bash test.sh"
+    "test": "bash test.sh",
+    "start": "echo start",
+    "build": "echo build"
   },
   "dependencies": {},
   "devDependencies": {
     "@pmleczek/oxfmt-config": "workspace:*",
     "@pmleczek/tsconfig": "workspace:*",
-    "@types/react": "catalog:",
     "oxfmt": "catalog:",
-    "react": "catalog:",
     "typescript": "catalog:"
   },
   "peerDependencies": {}
