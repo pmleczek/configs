@@ -1,0 +1,49 @@
+{
+  "name": "@pmleczek/oxfmt-config",
+  "version": "0.0.1",
+  "description": "A set of opinionated Oxfmt configuration files",
+  "keywords": [
+    "formatter",
+    "oxfmt"
+  ],
+  "homepage": "https://github.com/pmleczek/configs/tree/main/packages/oxfmt-config",
+  "bugs": {
+    "url": "https://github.com/pmleczek/configs/issues"
+  },
+  "license": "MIT",
+  "author": "Patryk Mleczek",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmleczek/configs.git",
+    "directory": "packages/oxfmt-config"
+  },
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "src"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "oxfmt": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "oxfmt": "*"
+  },
+  "peerDependenciesMeta": {
+    "oxfmt": {
+      "optional": true
+    }
+  }
+}

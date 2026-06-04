@@ -5,11 +5,12 @@
   "license": "MIT",
   "scripts": {
     "release": "changeset publish",
-    "test": "pnpm --filter '*' test"
+    "test": "turbo test"
   },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "catalog:"
+    "@changesets/cli": "catalog:",
+    "turbo": "catalog:"
   },
   "peerDependencies": {},
   "engines": {

@@ -1,0 +1,20 @@
+{
+  "name": "@pmleczek/fixture-oxfmt-sort-imports",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "bash test.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pmleczek/oxfmt-config": "workspace:*",
+    "@pmleczek/tsconfig": "workspace:*",
+    "@types/react": "catalog:",
+    "oxfmt": "catalog:",
+    "react": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {}
+}
