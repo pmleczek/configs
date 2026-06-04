@@ -18,8 +18,12 @@
     "directory": "packages/oxfmt-config"
   },
   "files": [],
+  "type": "module",
   "sideEffects": false,
-  "exports": {},
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
   "publishConfig": {
     "access": "public",
     "provenance": true
