@@ -2,28 +2,32 @@
 
 An opinionated set of TypeScript configuration files for consistent compiler settings across projects
 
-### Installation
+## Installation
 
 ```bash
+# npm
 npm install -D @pmleczek/tsconfig
+# yarn
 yarn add @pmleczek/tsconfig -D
+# bun
 bun add @pmleczek/tsconfig -d
+# pnpm
 pnpm add -D @pmleczek/tsconfig
 ```
 
-### Included files
+## Included files
 
-| File           | Extends | Use for                         |
-| -------------- | ------- | ------------------------------- |
-| `base`         | `base`  | Generic foundation file         |
-| `edge`         | `base`  | Edge function environments      |
-| `library`      | `base`  | Publishing npm packages         |
-| `next`         | `base`  | Next.js App Router              |
-| `node`         | `base`  | Node.js services and scripts    |
-| `react-native` | `base`  | React Native apps and libraries |
-| `react`        | `base`  | React apps and libraries        |
+| File           | Use for                         | Key additions over `base`                                   |
+| -------------- | ------------------------------- | ----------------------------------------------------------- |
+| `base`         | Generic foundation              | strict, verbatimModuleSyntax, resolveJsonModule, ES2022     |
+| `edge`         | Edge function environments      | `noEmit: true`                                              |
+| `library`      | Publishing npm packages         | `declaration`, `declarationMap`, `sourceMap`, NodeNext      |
+| `nextjs`       | Next.js App Router              | DOM libs, `jsx: preserve`, `allowJs`, `incremental`, noEmit |
+| `node`         | Node.js services and scripts    | NodeNext module resolution                                  |
+| `react`        | React apps and libraries        | DOM libs, `jsx: react-jsx`, `allowImportingTsExtensions`    |
+| `react-native` | React Native apps and libraries | `jsx: react-native`, `allowImportingTsExtensions`           |
 
-### Usage
+## Usage
 
 Extend the config in your `tsconfig.json`:
 
@@ -40,4 +44,7 @@ Extend the config in your `tsconfig.json`:
 }
 ```
 
-<!-- TODO: Add section about requirements or important notes -->
+## Requirements
+
+- Node.js >= 24
+- TypeScript >= 5.x
