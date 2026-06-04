@@ -18,6 +18,7 @@
     "directory": "packages/oxfmt-config"
   },
   "files": [
+    "CHANGELOG.md",
     "LICENSE",
     "package.json",
     "README.md",
