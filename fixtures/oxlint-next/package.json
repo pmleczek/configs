@@ -1,0 +1,21 @@
+{
+  "name": "@pmleczek/fixture-oxlint-next",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "bash test.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pmleczek/oxlint-config": "workspace:*",
+    "@pmleczek/tsconfig": "workspace:*",
+    "@types/react": "catalog:",
+    "next": "catalog:",
+    "oxlint": "catalog:",
+    "react": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {}
+}

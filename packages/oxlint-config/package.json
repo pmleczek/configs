@@ -1,0 +1,51 @@
+{
+  "name": "@pmleczek/oxlint-config",
+  "version": "0.0.1",
+  "description": "A set of opinionated Oxlint configuration files",
+  "keywords": [
+    "lint",
+    "linter",
+    "oxlint"
+  ],
+  "homepage": "https://github.com/pmleczek/configs/tree/main/packages/oxlint-config",
+  "bugs": {
+    "url": "https://github.com/pmleczek/configs/issues"
+  },
+  "license": "MIT",
+  "author": "Patryk Mleczek",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmleczek/configs.git",
+    "directory": "packages/oxlint-config"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "src"
+  ],
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "oxlint": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "oxlint": "*"
+  },
+  "peerDependenciesMeta": {
+    "oxlint": {
+      "optional": true
+    }
+  }
+}
