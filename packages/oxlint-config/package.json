@@ -1,6 +1,6 @@
 {
   "name": "@pmleczek/oxlint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A set of opinionated Oxlint configuration files",
   "keywords": [
     "lint",
