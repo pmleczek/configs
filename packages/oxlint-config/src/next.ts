@@ -1,5 +1,5 @@
 import { defineConfig } from "oxlint";
-import { react } from "./react";
+import { react } from "./react.ts";
 
 export const next = defineConfig({
   extends: [react],
