@@ -1,0 +1,19 @@
+{
+  "name": "@pmleczek/fixture-oxlint-node",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "bash test.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@pmleczek/oxlint-config": "workspace:*",
+    "@pmleczek/tsconfig": "workspace:*",
+    "@types/node": "catalog:",
+    "oxlint": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {}
+}

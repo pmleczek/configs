@@ -132,6 +132,111 @@ importers:
         specifier: 'catalog:'
         version: 5.9.3
 
+  fixtures/oxlint-base:
+    devDependencies:
+      '@pmleczek/oxlint-config':
+        specifier: workspace:*
+        version: link:../../packages/oxlint-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.2.6
+      oxlint:
+        specifier: 'catalog:'
+        version: 1.67.0
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
+  fixtures/oxlint-next:
+    devDependencies:
+      '@pmleczek/oxlint-config':
+        specifier: workspace:*
+        version: link:../../packages/oxlint-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.2.6
+      next:
+        specifier: 'catalog:'
+        version: 16.2.6(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      oxlint:
+        specifier: 'catalog:'
+        version: 1.67.0
+      react:
+        specifier: 'catalog:'
+        version: 19.2.6
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
+  fixtures/oxlint-node:
+    devDependencies:
+      '@pmleczek/oxlint-config':
+        specifier: workspace:*
+        version: link:../../packages/oxlint-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@types/node':
+        specifier: 'catalog:'
+        version: 24.7.2
+      oxlint:
+        specifier: 'catalog:'
+        version: 1.67.0
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
+  fixtures/oxlint-react:
+    devDependencies:
+      '@pmleczek/oxlint-config':
+        specifier: workspace:*
+        version: link:../../packages/oxlint-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.2.6
+      oxlint:
+        specifier: 'catalog:'
+        version: 1.67.0
+      react:
+        specifier: 'catalog:'
+        version: 19.2.6
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
+  fixtures/oxlint-react-native:
+    devDependencies:
+      '@pmleczek/oxlint-config':
+        specifier: workspace:*
+        version: link:../../packages/oxlint-config
+      '@pmleczek/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@types/react':
+        specifier: 'catalog:'
+        version: 19.2.6
+      oxlint:
+        specifier: 'catalog:'
+        version: 1.67.0
+      react:
+        specifier: 'catalog:'
+        version: 19.2.6
+      react-native:
+        specifier: 'catalog:'
+        version: 0.85.3(@babel/core@7.29.0)(@types/react@19.2.6)(react@19.2.6)
+      typescript:
+        specifier: 'catalog:'
+        version: 5.9.3
+
   fixtures/tsconfig-base:
     devDependencies:
       '@pmleczek/tsconfig':
